@@ -28,12 +28,20 @@ Fuera del trabajo desarrollo proyectos propios, que es donde más aprendo.
 ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![MCP](https://img.shields.io/badge/Model_Context_Protocol-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langgraph&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG-8A2BE2?style=for-the-badge&logo=databricks&logoColor=white)
 
 ---
 
 ### 🤖 IA y LLMs
 
-Desarrollo servidores **MCP (Model Context Protocol)** para conectar modelos de lenguaje con fuentes de datos reales.
+Construyo sistemas que conectan modelos de lenguaje con datos y procesos reales:
+
+- **Servidores MCP (Model Context Protocol)** en Node.js, exponiendo fuentes de datos externas como herramientas consumibles por cualquier cliente compatible.
+- **Agentes con LangGraph**: grafos de estado con nodos de enriquecimiento, recuperación y razonamiento, orquestados desde mi propio backend en lugar de depender de plataformas gestionadas.
+- **RAG de punta a punta**: chunking y evaluación del corpus, embeddings locales vía Ollama o en la nube, vector stores persistentes (Chroma) y golden sets escritos a mano para medir la calidad del retrieval.
+- **Backends de IA en Python** con FastAPI, manejando persistencia de estado, tool calling y salidas estructuradas en JSON.
 
 ---
 
